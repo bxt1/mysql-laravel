@@ -18,7 +18,7 @@
         <input type="text" name="payee_acc" id="payee_acc" value="{{$transaction->payee_acc}}" class="form-control"></br>
         <label>Amount</label></br>
         <input type="text" name="amount" id="amount" value="{{$transaction->amount}}" class="form-control"></br>
-		<label>Description</label></br>
+		    <label>Description</label></br>
         <input type="text" name="description" id="description" value="{{$transaction->description}}" class="form-control"></br>
         <input type="submit" value="Update" class="btn btn-success"></br>
     </form>
